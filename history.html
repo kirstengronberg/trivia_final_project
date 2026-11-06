@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
+    <title>History Trivia | Trivia Universe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tfp.js" defer></script>
+  </head>
+  <body data-category="23">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Trivia Universe home">
+        <span class="brand-mark" aria-hidden="true">TU</span>
+        <span>Trivia Universe</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="ultimate.html">Ultimate Trivia</a>
+        <details class="category-menu">
+          <summary>Categories</summary>
+          <div class="category-menu-list">
+            <a href="science.html">Science</a>
+            <a href="history.html" aria-current="page">History</a>
+            <a href="movies.html">Movies</a>
+            <a href="category.html?category=9">General Knowledge</a>
+            <a href="category.html?category=10">Books</a>
+            <a href="category.html?category=12">Music</a>
+            <a href="category.html?category=14">Television</a>
+            <a href="category.html?category=15">Video Games</a>
+            <a href="category.html?category=18">Computers</a>
+            <a href="category.html?category=20">Mythology</a>
+            <a href="category.html?category=21">Sports</a>
+            <a href="category.html?category=22">Geography</a>
+            <a href="category.html?category=27">Animals</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+
+    <main class="container quiz-main">
+      <section class="question-card" aria-labelledby="page-title">
+        <p class="eyebrow">History challenge</p>
+        <h1 id="page-title">History Trivia</h1>
+        <p id="category-label" class="category-label" hidden></p>
+        <div id="question-area" aria-live="polite">
+          <p id="status" class="status">Loading a question…</p>
+          <h2 id="question" class="question" hidden></h2>
+        </div>
+        <form id="answerForm" hidden>
+          <fieldset id="answers" class="answers">
+            <legend class="visually-hidden">Choose one answer</legend>
+          </fieldset>
+          <button class="submit-button" type="submit">Submit answer</button>
+        </form>
+        <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+        <div class="quiz-footer">
+          <p id="score" class="score" aria-live="polite">Score: 0</p>
+          <button id="next-question" class="next-button" type="button" hidden>Next question</button>
+          <button id="retry" class="next-button" type="button" hidden>Try again</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

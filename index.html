@@ -1,1 +1,154 @@
-This is for the index.
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
+    <title>Trivia Universe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Trivia Universe home">
+        <span class="brand-mark" aria-hidden="true">TU</span>
+        <span>Trivia Universe</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="ultimate.html">Ultimate Trivia</a>
+        <details class="category-menu">
+          <summary>Categories</summary>
+          <div class="category-menu-list">
+            <a href="science.html">Science</a>
+            <a href="history.html">History</a>
+            <a href="movies.html">Movies</a>
+            <a href="category.html?category=9">General Knowledge</a>
+            <a href="category.html?category=10">Books</a>
+            <a href="category.html?category=12">Music</a>
+            <a href="category.html?category=14">Television</a>
+            <a href="category.html?category=15">Video Games</a>
+            <a href="category.html?category=18">Computers</a>
+            <a href="category.html?category=20">Mythology</a>
+            <a href="category.html?category=21">Sports</a>
+            <a href="category.html?category=22">Geography</a>
+            <a href="category.html?category=27">Animals</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-banner">
+        <div class="container hero-content">
+          <p class="eyebrow">Knowledge is your superpower</p>
+          <h1>Become the Ultimate Trivia Champion</h1>
+          <p>Pick a category, challenge yourself, and see how much you know.</p>
+          <a class="button-link play-btn" href="ultimate.html">Play Ultimate Trivia</a>
+        </div>
+      </section>
+
+      <section class="container category-section" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <p class="eyebrow">Choose your challenge</p>
+          <h2 id="categories-title">Explore the Universe</h2>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" href="science.html">
+            <img class="category-image" src="assets/categories/science.jpg" alt="Laboratory glassware" loading="lazy" decoding="async">
+            <h3>Science</h3>
+            <p>Explore the wonders of science and nature.</p>
+            <span class="category-action">Play science trivia →</span>
+          </a>
+          <a class="category-card" href="history.html">
+            <img class="category-image" src="assets/categories/history.jpg" alt="A historic stone castle" loading="lazy" decoding="async">
+            <h3>History</h3>
+            <p>Travel through time, one question at a time.</p>
+            <span class="category-action">Play history trivia →</span>
+          </a>
+          <a class="category-card" href="movies.html">
+            <img class="category-image" src="assets/categories/movies.jpg" alt="Rows of seats in a movie theater" loading="lazy" decoding="async">
+            <h3>Movies</h3>
+            <p>Put your film knowledge in the spotlight.</p>
+            <span class="category-action">Play movie trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=9">
+            <img class="category-image" src="assets/categories/general-knowledge.jpg" alt="People exploring information on a laptop" loading="lazy" decoding="async">
+            <h3>General Knowledge</h3>
+            <p>A little bit of everything, all in one quiz.</p>
+            <span class="category-action">Play general knowledge →</span>
+          </a>
+          <a class="category-card" href="category.html?category=10">
+            <img class="category-image" src="assets/categories/books.jpg" alt="A stack of books" loading="lazy" decoding="async">
+            <h3>Books</h3>
+            <p>Discover how well you know stories and authors.</p>
+            <span class="category-action">Play book trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=12">
+            <img class="category-image" src="assets/categories/music.jpg" alt="Musical instruments in a home studio" loading="lazy" decoding="async">
+            <h3>Music</h3>
+            <p>Test your knowledge of songs, artists, and music.</p>
+            <span class="category-action">Play music trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=14">
+            <img class="category-image" src="assets/categories/television.jpg" alt="A television streaming shows" loading="lazy" decoding="async">
+            <h3>Television</h3>
+            <p>Questions about shows from across the decades.</p>
+            <span class="category-action">Play television trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=15">
+            <img class="category-image" src="assets/categories/video-games.jpg" alt="A player at a video game setup" loading="lazy" decoding="async">
+            <h3>Video Games</h3>
+            <p>Level up with questions from the world of gaming.</p>
+            <span class="category-action">Play video game trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=18">
+            <img class="category-image" src="assets/categories/computers.jpg" alt="A close-up view of a computer circuit board" loading="lazy" decoding="async">
+            <h3>Computers</h3>
+            <p>Explore computing, technology, and the digital world.</p>
+            <span class="category-action">Play computer trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=20">
+            <img class="category-image" src="assets/categories/mythology.jpg" alt="The ancient Acropolis in Athens" loading="lazy" decoding="async">
+            <h3>Mythology</h3>
+            <p>Meet the gods, heroes, and legends of mythology.</p>
+            <span class="category-action">Play mythology trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=21">
+            <img class="category-image" src="assets/categories/sports.jpg" alt="An athlete preparing to sprint on a track" loading="lazy" decoding="async">
+            <h3>Sports</h3>
+            <p>Challenge yourself on games, teams, and athletes.</p>
+            <span class="category-action">Play sports trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=22">
+            <img class="category-image" src="assets/categories/geography.jpg" alt="A mountain lake and forest landscape" loading="lazy" decoding="async">
+            <h3>Geography</h3>
+            <p>Travel the globe through places and landmarks.</p>
+            <span class="category-action">Play geography trivia →</span>
+          </a>
+          <a class="category-card" href="category.html?category=27">
+            <img class="category-image" src="assets/categories/animals.jpg" alt="A lion in its habitat" loading="lazy" decoding="async">
+            <h3>Animals</h3>
+            <p>How much do you know about the animal kingdom?</p>
+            <span class="category-action">Play animal trivia →</span>
+          </a>
+          <a class="category-card ultimate-card" href="ultimate.html">
+            <span class="ultimate-cover" aria-hidden="true">
+              <img src="assets/categories/science.jpg" alt="" loading="lazy" decoding="async">
+              <img src="assets/categories/history.jpg" alt="" loading="lazy" decoding="async">
+              <img src="assets/categories/movies.jpg" alt="" loading="lazy" decoding="async">
+              <img src="assets/categories/animals.jpg" alt="" loading="lazy" decoding="async">
+              <span>13 CATEGORIES</span>
+            </span>
+            <h3>Ultimate Trivia</h3>
+            <p>All 13 categories in a shuffled sequence.</p>
+            <span class="category-action">Take the ultimate challenge →</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Trivia Universe · Test your knowledge, explore the universe.</p>
+    </footer>
+  </body>
+</html>
