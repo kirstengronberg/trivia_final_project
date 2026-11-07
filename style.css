@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,100..1000&display=swap");
 
 :root {
@@ -21,6 +19,7 @@ body {
   min-height: 100vh;
   margin: 0;
   background: #121212;
+  font-family: "Google Sans Flex", Arial, sans-serif;
 }
 
 a {
@@ -760,4 +759,3 @@ input:focus-visible,
     color: var(--accent-color);
     margin: 1rem 0;
 }
->>>>>>> tree/kirsten
