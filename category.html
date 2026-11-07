@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
+    <title>Trivia Category | Trivia Universe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz.js" defer></script>
+  </head>
+  <body data-category="dynamic">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Trivia Universe home">
+        <span class="brand-mark" aria-hidden="true">TU</span>
+        <span>Trivia Universe</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="categories.html?type=multiple">Ultimate Trivia</a>
+        <a href="categories.html?type=boolean">True/False Trivia</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container quiz-main">
+      <section class="question-card" aria-labelledby="page-title">
+        <p id="category-eyebrow" class="eyebrow">Category challenge</p>
+        <h1 id="page-title">Trivia Category</h1>
+        <p id="category-label" class="category-label" hidden></p>
+        <div id="question-area" aria-live="polite">
+          <p id="status" class="status">Loading a question…</p>
+          <h2 id="question" class="question" hidden></h2>
+        </div>
+        <form id="answerForm" hidden>
+          <fieldset id="answers" class="answers">
+            <legend class="visually-hidden">Choose one answer</legend>
+          </fieldset>
+          <button class="submit-button" type="submit">Submit answer</button>
+        </form>
+        <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+        <div class="quiz-footer">
+          <p id="score" class="score" aria-live="polite">Score: 0</p>
+          <button id="next-question" class="next-button" type="button" hidden>Next question</button>
+          <button id="retry" class="next-button" type="button" hidden>Try again</button>
+        </div>
+        <p class="question-contact">Like what you see? <a href="contact.html">Contact Us</a></p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>Trivia Universe · Test your knowledge, explore the universe.</p>
+    </footer>
+  </body>
+</html>

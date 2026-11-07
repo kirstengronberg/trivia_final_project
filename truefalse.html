@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
+    <title>True or False | Trivia Universe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Trivia Universe home">
+        <span class="brand-mark" aria-hidden="true">TU</span>
+        <span>Trivia Universe</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="categories.html?type=multiple">Ultimate Trivia</a>
+        <a href="categories.html?type=boolean" aria-current="page">True/False Trivia</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="quiz-main">
+      <section class="question-card">
+        <div class="category-label" id="category-label" hidden>Category</div>
+        
+        <div id="status" class="status">Loading a question…</div>
+        <h1 id="question" class="question" hidden></h1>
+
+        <form id="answerForm" hidden>
+          <fieldset class="answers" id="answers">
+            <!-- Populated dynamically via script.js -->
+          </fieldset>
+          <button type="submit" class="submit-button">Submit Answer</button>
+        </form>
+
+        <p id="feedback" class="feedback" aria-live="polite"></p>
+
+        <div class="quiz-footer">
+          <p id="score" class="score">Score: 0</p>
+          <button type="button" class="next-button" id="next-question" hidden>Next Question</button>
+          <button type="button" class="submit-button" id="retry" hidden>Retry</button>
+        </div>
+        <p class="question-contact">Like what you see? <a href="contact.html">Contact Us</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Trivia Universe. Powered by OpenTDB.</p>
+    </footer>
+
+    <!-- This links back directly to your single main JS script -->
+    <script src="truefalse.js" defer></script>
+  </body>
+</html>
