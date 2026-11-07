@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
+    <title>Contact | Trivia Universe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Trivia Universe home">
+        <span class="brand-mark" aria-hidden="true">TU</span>
+        <span>Trivia Universe</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="categories.html?type=multiple">Ultimate Trivia</a>
+        <a href="categories.html?type=boolean">True/False Trivia</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <main class="contact-main">
+      <section class="contact-card" aria-labelledby="contact-title">
+        <p class="eyebrow">Get in touch</p>
+        <h1 id="contact-title">Contact Us</h1>
+        <form class="contact-form">
+          <label for="contact-name">Name</label>
+          <input id="contact-name" name="name" type="text" autocomplete="name" required>
+
+          <label for="contact-email">Email address</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="6" required></textarea>
+
+          <button class="play-btn" type="button">Connect Me</button>
+        </form>
+        <p class="contact-note">This form collects your details but is not yet connected to a message service.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Trivia Universe · Test your knowledge, explore the universe.</p>
+    </footer>
+  </body>
+</html>

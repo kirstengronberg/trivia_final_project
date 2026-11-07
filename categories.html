@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
+    <title>Trivia Categories | Trivia Universe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="category-picker.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Trivia Universe home">
+        <span class="brand-mark" aria-hidden="true">TU</span>
+        <span>Trivia Universe</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="categories.html?type=multiple">Ultimate Trivia</a>
+        <a href="categories.html?type=boolean">True/False Trivia</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container category-section" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <p class="eyebrow">Choose your challenge</p>
+          <h1 id="categories-title">Pick a Category for True/False Trivia</h1>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" data-category-id="17" href="category.html?category=17&type=multiple">
+            <img class="category-image" src="assets/categories/science.jpg" alt="Laboratory glassware" loading="lazy" decoding="async">
+            <h3>Science</h3>
+            <p>Explore the wonders of science and nature.</p>
+            <span class="category-action">Play science trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="23" href="category.html?category=23&type=multiple">
+            <img class="category-image" src="assets/categories/history.jpg" alt="A historic stone castle" loading="lazy" decoding="async">
+            <h3>History</h3>
+            <p>Travel through time, one question at a time.</p>
+            <span class="category-action">Play history trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="11" href="category.html?category=11&type=multiple">
+            <img class="category-image" src="assets/categories/movies.jpg" alt="Rows of seats in a movie theater" loading="lazy" decoding="async">
+            <h3>Film</h3>
+            <p>Put your film knowledge in the spotlight.</p>
+            <span class="category-action">Play film trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="9" href="category.html?category=9&type=multiple">
+            <img class="category-image" src="assets/categories/general-knowledge.jpg" alt="People exploring information on a laptop" loading="lazy" decoding="async">
+            <h3>General Knowledge</h3>
+            <p>A little bit of everything, all in one quiz.</p>
+            <span class="category-action">Play general knowledge →</span>
+          </a>
+          <a class="category-card" data-category-id="10" href="category.html?category=10&type=multiple">
+            <img class="category-image" src="assets/categories/books.jpg" alt="A stack of books" loading="lazy" decoding="async">
+            <h3>Literature</h3>
+            <p>Discover how well you know stories and authors.</p>
+            <span class="category-action">Play literature trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="12" href="category.html?category=12&type=multiple">
+            <img class="category-image" src="assets/categories/music.jpg" alt="Musical instruments in a home studio" loading="lazy" decoding="async">
+            <h3>Music</h3>
+            <p>Test your knowledge of songs, artists, and music.</p>
+            <span class="category-action">Play music trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="14" href="category.html?category=14&type=multiple">
+            <img class="category-image" src="assets/categories/television.jpg" alt="A television streaming shows" loading="lazy" decoding="async">
+            <h3>Television</h3>
+            <p>Questions about shows from across the decades.</p>
+            <span class="category-action">Play television trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="15" href="category.html?category=15&type=multiple">
+            <img class="category-image" src="assets/categories/video-games.jpg" alt="A player at a video game setup" loading="lazy" decoding="async">
+            <h3>Gaming</h3>
+            <p>Level up with questions from the world of gaming.</p>
+            <span class="category-action">Play gaming trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="18" href="category.html?category=18&type=multiple">
+            <img class="category-image" src="assets/categories/computers.jpg" alt="A close-up view of a computer circuit board" loading="lazy" decoding="async">
+            <h3>Technology</h3>
+            <p>Explore computing, technology, and the digital world.</p>
+            <span class="category-action">Play technology trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="20" href="category.html?category=20&type=multiple">
+            <img class="category-image" src="assets/categories/mythology.jpg" alt="The ancient Acropolis in Athens" loading="lazy" decoding="async">
+            <h3>Mythology</h3>
+            <p>Meet the gods, heroes, and legends of mythology.</p>
+            <span class="category-action">Play mythology trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="21" href="category.html?category=21&type=multiple">
+            <img class="category-image" src="assets/categories/sports.jpg" alt="An athlete preparing to sprint on a track" loading="lazy" decoding="async">
+            <h3>Sports</h3>
+            <p>Challenge yourself on games, teams, and athletes.</p>
+            <span class="category-action">Play sports trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="22" href="category.html?category=22&type=multiple">
+            <img class="category-image" src="assets/categories/geography.jpg" alt="A mountain lake and forest landscape" loading="lazy" decoding="async">
+            <h3>Geography</h3>
+            <p>Travel the globe through places and landmarks.</p>
+            <span class="category-action">Play geography trivia →</span>
+          </a>
+          <a class="category-card" data-category-id="27" href="category.html?category=27&type=multiple">
+            <img class="category-image" src="assets/categories/animals.jpg" alt="A lion in its habitat" loading="lazy" decoding="async">
+            <h3>Animals</h3>
+            <p>How much do you know about the animal kingdom?</p>
+            <span class="category-action">Play animal trivia →</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Trivia Universe · Test your knowledge, explore the universe.</p>
+    </footer>
+  </body>
+</html>
